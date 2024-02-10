@@ -22,12 +22,12 @@ const banner = document.getElementById("banner");
 const bannerImg = document.querySelector('.banner-img');
 const bannerTxt = document.querySelector('#banner p');
 
-// créer une const dots pour l'utiliser dans notre boucle plus bas
 const arrowLeft = document.createElement("div");
 const arrowRight = document.createElement("div");
 const arrowLeftPicture = document.createElement("img");
 const arrowRightPicture = document.createElement("img");
 
+// créer une const dots pour l'utiliser dans notre boucle plus bas
 const dots = document.querySelector(".dots");
 let dot_selected = document.querySelector(".dot_selected");
 
